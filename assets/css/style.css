@@ -1,0 +1,44 @@
+@import "https://fonts.googleapis.com/css2?family=Megrim&display=swap";
+@import 'https://fonts.googleapis.com/css2?family=Goldman&display=swap';
+
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+#word {
+  font-family: Megrim, cursive;
+  font-size: 20vh;
+  position: absolute;
+  margin: 10;
+  /*bottom: 0;*/
+  color: #fc0;
+  -webkit-text-stroke: 0.15vh #c0f;
+}
+
+#top-left-text {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.text-change-container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text-change {
+  font-family: 'Goldman', monospace;
+  font-weight: normal;
+  font-size: xx-large;
+  color: #c8c8c8;
+  filter: drop-shadow(0 0 0.3em rgba(200, 200, 200, 0.3));
+}
+
+.dud {
+  color: rgba(200, 30, 30, 0.8);
+  filter: drop-shadow(0 0 0.5em #f00);
+}
